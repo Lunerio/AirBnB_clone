@@ -5,3 +5,12 @@ body {
     color: #484848;
     font-family: Circular, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+}

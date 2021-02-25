@@ -30,3 +30,16 @@ button {
 button:hover {
     opacity: 90%;
 }
+
+.locations {
+    margin: auto;
+    height: 100%;
+    width: 25%;
+    border-right: solid 1px #DDDDDD;
+}
+
+.amenities {
+    margin: auto;
+    height: 100%;
+    width: 25%;
+}
