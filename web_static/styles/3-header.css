@@ -2,9 +2,7 @@ header {
     color: #FFF;
     height: 70px;
     width: 100%;
-    background-color: #FFF;
+    background: #FFF url("../images/logo.png") no-repeat;
+    background-position: left 20px center;
     border-bottom: 1px solid #CCCCCC;
-}
-div.logo {
-    background-image: url('../images/logo.png');
 }
