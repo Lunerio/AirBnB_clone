@@ -3,19 +3,18 @@
     max-width: 1000px;
     margin-top: 30px;
     margin-bottom: 30px;
-    align-self: center;
 }
 
 .filters {
+    display: flex;
     background-color: #FFF;
     height: 70px;
+    width: 100%;
     border: 1px solid #DDDDDD;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
 }
 
 button {
+    align-self: center;
     font-size: 18px;
     background-color: #FF5A5F;
     color: #FFFFFF;
@@ -32,14 +31,16 @@ button:hover {
 }
 
 .locations {
-    margin: auto;
+    flex: 0 0 25%;
+    margin: 0;
     height: 100%;
     width: 25%;
     border-right: solid 1px #DDDDDD;
 }
 
 .amenities {
-    margin: auto;
+    flex: 0 0 25%;
+    margin: 0;
     height: 100%;
     width: 25%;
 }
