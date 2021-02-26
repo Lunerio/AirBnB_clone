@@ -55,6 +55,28 @@ button:hover {
     border-radius: 4px;
 }
 
+.locations:hover .popover {
+    display: block;
+    position: relative;
+}
+
+.amenities:hover .popover {
+    display: block;
+    position: relative;
+}
+
+.places {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.places h1 {
+    width: 100%;
+    font-size: 30px;
+}
+
 .popover h2 {
     font-size: 16px;
     margin-bottom: 0%;
@@ -67,10 +89,15 @@ button:hover {
     margin: 5px;
 }
 
-.locations:hover .popover {
-    display: block;
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
 }
 
-.amenities:hover .popover {
-    display: block;
+.places article h2 {
+    font-size: 30px;
+    text-align: center;
 }
