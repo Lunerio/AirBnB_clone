@@ -7,11 +7,13 @@
     margin-top: 30px;
     margin-bottom: 30px;
     align-self: center;
+    /* margin-bottom: auto; */
 }
 
 .filters {
     display: flex;
     flex-direction: row;
+    position: static;
     background-color: #FFF;
     height: 70px;
     border: 1px solid #DDDDDD;
