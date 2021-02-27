@@ -1,17 +1,20 @@
 .container {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     max-width: 1000px;
     margin-top: 30px;
     margin-bottom: 30px;
+    /* align-self: center; */
 }
 
 .filters {
     display: flex;
     background-color: #FFF;
     height: 70px;
-    width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    align-items: center;
 }
 
 button {
@@ -50,7 +53,7 @@ button:hover {
     display: none;
     margin-top: 8px;
     background-color: #FAFAFA;
-    /* width: 100%; */
+    width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
 }
@@ -65,18 +68,6 @@ button:hover {
     position: relative;
 }
 
-.places {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.places h1 {
-    width: 100%;
-    font-size: 30px;
-}
-
 .popover h2 {
     font-size: 16px;
     margin-bottom: 0%;
@@ -87,17 +78,4 @@ button:hover {
     list-style-type: none;
     line-height: 1.5em;
     margin: 5px;
-}
-
-.places article {
-    width: 390px;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #FF5A5F;
-    border-radius: 4px;
-}
-
-.places article h2 {
-    font-size: 30px;
-    text-align: center;
 }
